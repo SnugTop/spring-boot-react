@@ -6,7 +6,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
-public class product {
+public class Product {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -46,5 +46,5 @@ public class product {
     public void setPrice(double price) {
         this.price = price;
     }
-    
+
 }
