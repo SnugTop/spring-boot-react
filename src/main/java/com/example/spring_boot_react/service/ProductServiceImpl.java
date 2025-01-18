@@ -1,4 +1,4 @@
-package com.example.spring_boot_react.servic;
+package com.example.spring_boot_react.service;
 
 import com.example.spring_boot_react.model.Product;
 import com.example.spring_boot_react.repository.ProductRepository;
