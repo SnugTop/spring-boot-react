@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'; //This will import the useState and useEffect hooks from the react library
-import ProductService from '../services/ProductService'; //This will import the ProductService class that we created earlier
+import ProductService from '../ProductService'; //This will import the ProductService class that we created earlier
 import { Link } from 'react-router-dom'; //This is used to create a link to the product details page
 
 //This is a functional component that will display a list of products
