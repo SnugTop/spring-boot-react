@@ -21,10 +21,10 @@ const AddProductComponent = () => {
     //This will return the JSX that will be rendered by the component
     return (
         <div>
-            //This will create a form to add a new product
+            {/*This will create a form to add a new product*/}
             <div className="container"> 
                 <div className="row">
-                    //This will create a card with a form to add a new product
+                    {/*This will create a card with a form to add a new product*/}
                     <div className="card col-md-6 offset-md-3 offset-md-3">
                         <h3 className="text-center">Add Product</h3>
                         <div className="card-body">
