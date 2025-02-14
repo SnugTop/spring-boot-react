@@ -1,7 +1,8 @@
-.PHONY: run-backend run-frontend
+.EXPORT_ALL_VARIABLES:
+include .env
 
 run-backend:
-	source .env && cd backend && ./mvnw spring-boot:run
+	cd backend && ./mvnw -q spring-boot:run
 
 run-frontend:
 	cd react-frontend && npm run start
