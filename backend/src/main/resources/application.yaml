@@ -4,8 +4,8 @@ spring:
 
   datasource:
     url: "jdbc:postgresql://${DATABASE_URL:localhost}:5432/postgres"
-    username: ${DATABASE_USER}
-    password: ${DATABASE_PASSWORD}
+    username: ${DATABASE_USER:admin}
+    password: ${DATABASE_PASSWORD:admin}
 
   jpa:
     show-sql: true
