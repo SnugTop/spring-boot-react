@@ -26,10 +26,10 @@ run-frontend: build-frontend
 	cd react-frontend && npm run start
 
 # -------- Docker images --------
-docker-build-backend:
+docker-build-backend: build-backend
 	docker build -t $(BACKEND_IMAGE) -f backend/Dockerfile .
 
-docker-build-frontend:
+docker-build-frontend: build-frontend
 	docker build -t $(FRONTEND_IMAGE) -f react-frontend/Dockerfile .
 
 docker-build-all: docker-build-backend docker-build-frontend
