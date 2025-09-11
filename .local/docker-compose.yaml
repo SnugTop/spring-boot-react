@@ -45,7 +45,7 @@ services:
       REACT_APP_API_URL: http://backend:8080
       HOST: 0.0.0.0
     ports:
-      - "3000:3000"
+      - "3000:80"
     depends_on:
       - backend
 
