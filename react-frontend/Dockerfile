@@ -1,4 +1,4 @@
-FROM nginx:1.27.10-alpine
+FROM nginx:1.29.1-alpine
 
 RUN apk update && apk upgrade --no-cache
 
