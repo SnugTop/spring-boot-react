@@ -20,7 +20,7 @@ run-backend:
 
 # -------- Frontend (host) --------
 build-frontend:
-	cd react-frontend && npm install
+	cd react-frontend && npm run build 
 
 run-frontend: build-frontend
 	cd react-frontend && npm run start
