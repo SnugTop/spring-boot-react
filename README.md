@@ -23,6 +23,12 @@ make test-backend
 make run-backend
 ```
 
+### Swagger UI
+Using the SpringBoot and SpringDoc dependencies, we can automatically generate OpenAPI specs and serve them using the
+Swagger UI. 
+
+Simply run the backend, then browse to: http://localhost:8080/swagger-ui.html
+
 ## Frontend Operations
 ### Build Frontend
 ```shell

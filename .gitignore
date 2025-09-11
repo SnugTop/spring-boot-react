@@ -33,3 +33,24 @@ build/
 .vscode/
 .DS_Store
 .env
+
+### Frontend ###
+react-frontend/node_modules/
+react-frontend/build/
+react-frontend/dist/
+react-frontend/.npm/
+react-frontend/.yarn/
+npm-debug.log
+yarn-error.log
+
+
+### Docker Compose ###
+*.env.local
+pgdata/
+*.pid
+*.seed
+
+
+### OS/Misc ###
+*.swp
+*.swo
